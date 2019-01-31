@@ -1,2 +1,3 @@
 # knn-classifier
-explanation of knn classifiers
+
+See jupyter notebook
