@@ -21,3 +21,13 @@ There is one more thing to address when talking about distance, and that is weig
 However, sometimes the k nearest observations are not all similarly close to the test. In that case it may be useful to weight by distance. Functionally this will weight by the inverse of distance, so that closer datapoints (with a low distance) have a higher weight than further ones.
 
 (sample is in the notebook)
+
+# TODO
+
+- KNN regression
+
+https://courses.thinkful.com/data-201v1/project/3.1.3
+
+- Model comparison
+
+https://courses.thinkful.com/data-201v1/project/3.1.4
