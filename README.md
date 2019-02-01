@@ -8,13 +8,13 @@ So far we've covered learning via probability (naive Bayes) and learning via err
 
 Improving on KNN classifiers
 
-**- normalization**
+**normalization**
 
 It can be a more obvious challenge if you were dealing with something where the relative scales are strikingly different. For example, if you were looking at buildings and you have height in floors and square footage, you'd have a model that would really only care about square footage since distance in that dimension would be a far greater number of units than the number of floors.
 
 Turn all the values to be between 0 and 1 or -1 to 1 (same thing)
 
-**- weighing **
+**weighing**
 
 There is one more thing to address when talking about distance, and that is weighting. In the vanilla version of KNN, all k of the closest observations are given equal votes on what the outcome of our test observation should be. When the data is densely populated that isn't necessarily a problem.
 
